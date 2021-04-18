@@ -21,13 +21,13 @@ Includes all the code used to load, clean, transform and write the final data, w
 In summary, this script performs the following operations:
 
 
-**Initial steps:**
+### Initial steps:
 
 - load dplyr library 
 - set working directory 
 
 
-**To prepare tidy data set:**
+### To prepare tidy data set:
 
 *Incorporate data sets and combine them* 
 - load train and test datasets usind read.table() 
@@ -57,13 +57,13 @@ In summary, this script performs the following operations:
 
 
 
-**Clean global environment**
+### Clean global environment
 
 - remove all objects except the tidy_data
 
 
 
-**Create second independent data set**
+### Create second independent data set
 
 - create data set with the average of each variable for each activity and each subject using dplyr's group_by(), summarise(), across() and mean(), and adding the string "average" at the beginning of each modified variable name
 - write a txt file with the second data set using write.table()
@@ -73,5 +73,5 @@ In summary, this script performs the following operations:
 
 ## 3) step5table.txt
 
-The final table that includes all data for "activity", "subject", and summary feature variables the indicate the average per activity per subject of specific measurements.
+The final dataset that includes the variables activity, subject, and summary feature variables the indicate the average per activity per subject of specific measurements.
 
