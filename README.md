@@ -6,6 +6,7 @@
 1) CodeBook.md
 2) run_analysis.R
 3) step5table.txt
+4) README.md
 
 Each document is described below
 
@@ -45,3 +46,7 @@ In summary, this script performs the following operations:
 
 The final dataset that includes the variables activity, subject, and summary feature variables the indicate the average per activity per subject of specific measurements.
 
+
+## 4) README.md
+
+(current document) Describes the documents included in the GettingAndCleaningDataCourseProject repository, how they are connected and what they do/contain.
