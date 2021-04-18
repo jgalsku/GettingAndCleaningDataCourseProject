@@ -13,7 +13,7 @@ The original dataset includes a 561-feature vector with time (t) and frequency (
 
 ## Variables  
 
-*ACTIVITY:* (1 column)  
+**ACTIVITY** (1 column)  
 - WALKING  
 - WALKING_UPSTAIRS  
 - WALKING_DOWNSTAIRS  
@@ -21,10 +21,10 @@ The original dataset includes a 561-feature vector with time (t) and frequency (
 - STANDING  
 - LAYING  
 
-*SUBJECT* (1 column)  
+**SUBJECT** (1 column)  
 An identifier of the subject who carried out the experiment  
 
-*AVERAGE FEATURE VARIABLES* (66 columns)  
+**AVERAGE FEATURE VARIABLES** (66 columns)  
 Our data (step5table.txt) includes the AVERAGE per ACTIVITY per SUBJECT for each feature variable which described the mean (mean()) and standard deviation (std()) of each XYZ signal of each signal measurement.  
 
  
