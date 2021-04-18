@@ -29,7 +29,7 @@ In summary, this script performs the following operations:
 **To prepare tidy data set:**  
 - Incorporate train and test data sets and combine them by row  
 - Incorporate feature data to label variables in data  
-- Select variables that include the mean() and std() features in the combined data set  
+- Select variables that include the mean() and std() features in the combined data set and then remove the "()" from the variable names
 - Load and bind train and test activity label data, then match with class labels and replace with descriptive activity names  
 - Load and bind train and test activity subject data  
 - Create tidy data set by binding the activity label variable, subject variable, and the selected data set for mean and std variables  

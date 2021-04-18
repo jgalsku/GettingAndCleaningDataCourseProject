@@ -41,6 +41,9 @@ names(bind_data) <- features$V2
 #extract the variables that measure mean() or std()
 bind_data_meanstd <- select(bind_data, contains(c("mean()", "std()")))
 
+#eliminate "()" from variable bames
+names(bind_data_meanstd) <- gsub(x = names(bind_data_meanstd), pattern = "[()]", replacement = "")  
+
 
 
 ## Load and process activity label data
