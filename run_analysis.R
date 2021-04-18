@@ -36,7 +36,7 @@ names(bind_data) <- features$V2
 
 
 
-## Select variables in combined data set
+## Select variables that include the mean() and std() features in the combined data set
 
 #extract the variables that measure mean() or std()
 bind_data_meanstd <- select(bind_data, contains(c("mean()", "std()")))
